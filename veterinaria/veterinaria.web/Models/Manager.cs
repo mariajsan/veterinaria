@@ -6,12 +6,9 @@ using System.Web;
 
 namespace veterinaria.web.Models
 {
-    public class Owner
+    public class Manager
     {
-        
         public int Id { get; set; }
-
-        public ICollection<Pet> Pet { get; set; }
 
         public ApplicationUser ApplicationUser { get; set; }
     }

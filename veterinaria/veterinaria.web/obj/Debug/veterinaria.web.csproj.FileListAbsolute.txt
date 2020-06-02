@@ -127,3 +127,6 @@ C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\obj\Debug\ve
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\obj\Debug\veterinaria.web.pdb
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\obj\Debug\veterinaria.web.Migrations.FirstMigration.resources
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\obj\Debug\veterinaria.web.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\bin\veterinaria.common.dll
+C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\bin\veterinaria.common.pdb
+C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\obj\Debug\veterinaria.web.Migrations.StructDB.resources

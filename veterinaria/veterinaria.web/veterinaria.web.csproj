@@ -180,10 +180,16 @@
     <Compile Include="Migrations\202006020731348_FirstMigration.Designer.cs">
       <DependentUpon>202006020731348_FirstMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006020920594_StructDB.cs" />
+    <Compile Include="Migrations\202006020920594_StructDB.Designer.cs">
+      <DependentUpon>202006020920594_StructDB.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Consult.cs" />
+    <Compile Include="Models\History.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Manager.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Owner.cs" />
     <Compile Include="Models\Pet.cs" />
@@ -370,6 +376,15 @@
     <EmbeddedResource Include="Migrations\202006020731348_FirstMigration.resx">
       <DependentUpon>202006020731348_FirstMigration.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006020920594_StructDB.resx">
+      <DependentUpon>202006020920594_StructDB.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\veterinaria.common\veterinaria.common.csproj">
+      <Project>{89e3a51f-b13c-4af8-8dcf-a6825dfd4291}</Project>
+      <Name>veterinaria.common</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
