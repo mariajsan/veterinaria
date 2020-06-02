@@ -1,9 +1,0 @@
-C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\bin\Debug\netstandard2.0\veterinaria.common.deps.json
-C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\bin\Debug\netstandard2.0\veterinaria.common.dll
-C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\bin\Debug\netstandard2.0\veterinaria.common.pdb
-C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\obj\Debug\netstandard2.0\veterinaria.common.csprojAssemblyReference.cache
-C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\obj\Debug\netstandard2.0\veterinaria.common.AssemblyInfoInputs.cache
-C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\obj\Debug\netstandard2.0\veterinaria.common.AssemblyInfo.cs
-C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\obj\Debug\netstandard2.0\veterinaria.common.csproj.CoreCompileInputs.cache
-C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\obj\Debug\netstandard2.0\veterinaria.common.dll
-C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\obj\Debug\netstandard2.0\veterinaria.common.pdb
