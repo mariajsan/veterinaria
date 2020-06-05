@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -14,10 +15,17 @@ namespace veterinaria.web.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
+        public ActionResult AllPets() {
+            var pets = db.Pets.Include(o =>o.Owner).Include(u => u.Owner.ApplicationUser).ToList();
+            return View(pets);
+        }
         // GET: Pets
         public ActionResult Index()
         {
-            return View(db.Pets.ToList());
+            var UserId = User.Identity.GetUserId();
+            var own = db.Owners.Where(o => o.OwnerId == UserId).FirstOrDefault();
+            var pet = db.Pets.Include(u => u.Owner).Where(p => p.OwnerId == own.Id).ToList();
+            return View(pet);
         }
 
         // GET: Pets/Details/5
@@ -46,10 +54,13 @@ namespace veterinaria.web.Controllers
         // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,PetType,Age,Color,Race,Weight,Height")] Pet pet)
+        public ActionResult Create(Pet pet)
         {
             if (ModelState.IsValid)
             {
+                var UserId = User.Identity.GetUserId();
+                var own = db.Owners.Where(o => o.OwnerId == UserId).FirstOrDefault();
+                pet.OwnerId = own.Id;
                 db.Pets.Add(pet);
                 db.SaveChanges();
                 return RedirectToAction("Index");

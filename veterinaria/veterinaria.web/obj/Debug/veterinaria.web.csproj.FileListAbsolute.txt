@@ -131,3 +131,5 @@ C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\bin\veterina
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\bin\veterinaria.common.pdb
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\obj\Debug\veterinaria.web.Migrations.StructDB.resources
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\obj\Debug\veterinaria.web.Migrations.UpdatePets.resources
+C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\obj\Debug\veterinaria.web.Migrations.ForeignKey.resources
+C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\obj\Debug\veterinaria.web.Migrations.ownerid.resources
