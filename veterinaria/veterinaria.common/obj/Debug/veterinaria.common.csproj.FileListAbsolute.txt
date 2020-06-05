@@ -1,6 +1,5 @@
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\bin\Debug\veterinaria.common.dll
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\bin\Debug\veterinaria.common.pdb
-C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\obj\Debug\veterinaria.common.csprojAssemblyReference.cache
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\obj\Debug\veterinaria.common.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\obj\Debug\veterinaria.common.dll
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.common\obj\Debug\veterinaria.common.pdb

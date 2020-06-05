@@ -32,6 +32,8 @@ namespace veterinaria.web.Models
         [Required]
         [Display(Name = "Altura")]
         public decimal Height { get; set; }
+        [Display(Name = "Foto")]
+        public string ImgUrl { get; set; }
 
         public Owner Owner { get; set; }
 

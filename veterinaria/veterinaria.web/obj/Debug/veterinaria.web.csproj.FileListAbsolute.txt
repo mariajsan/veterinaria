@@ -130,3 +130,4 @@ C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\obj\Debug\ve
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\bin\veterinaria.common.dll
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\bin\veterinaria.common.pdb
 C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\obj\Debug\veterinaria.web.Migrations.StructDB.resources
+C:\Users\Admin\source\repos\veterinaria\veterinaria\veterinaria.web\obj\Debug\veterinaria.web.Migrations.UpdatePets.resources
