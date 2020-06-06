@@ -22,10 +22,15 @@ namespace veterinaria.web.Controllers
         // GET: Pets
         public ActionResult Index()
         {
-            var UserId = User.Identity.GetUserId();
-            var own = db.Owners.Where(o => o.OwnerId == UserId).FirstOrDefault();
-            var pet = db.Pets.Include(u => u.Owner).Where(p => p.OwnerId == own.Id).ToList();
-            return View(pet);
+            var user = User.Identity.GetUserId();
+            var ow = db.Owners.Where(o => o.OwnerId == user).FirstOrDefault();
+            var pets = db.Pets.Include(u => u.Owner).Where(p => p.OwnerId == ow.Id).ToList();
+
+            if (pets == null)
+            {
+                return HttpNotFound();
+            }
+            return View(pets);
         }
 
         // GET: Pets/Details/5
